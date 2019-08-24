@@ -1,0 +1,169 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">iFarmer</string>
+
+    <!--network error string-->
+    <string name="network_error">Koneksi jaringan hilang</string>
+    <string name="invalid_json_response">Respon tidak valid</string>
+    <string name="application_update_required">Perlu pembaruan aplikasi</string>
+    <string name="application_id_invalid">ID Aplikasi tidak valid</string>
+    <string name="invalid_request">Permintaan tidak valid</string>
+    <string name="connectivity_error">Kesalahan koneksi</string>
+    <string name="unknown_error">Kesalahan tidak diketahui</string>
+    <string name="access_deny">Akses ditolak</string>
+    <string name="insecure_internet_connection">Koneksi internet tidak aman</string>
+    <string name="something_went_wrong">Ada sesuatu yang salah</string>
+    <string name="sms_varification_text">Masukan kode sms verifikasi</string>
+    <string name="forgot_Uname_text">Lupa nama unik?</string>
+    <string name="name_info">Hi Kawan, sebelum kita mulai bertualang bersama Skoline. Lakukan pendaftaran dulu yah.</string>
+    <string name="childName_info">Isi dengan kombinasi huruf dan angka. Minimal 6 karakter, maksimal 12 karakter</string>
+    <string name="dob">Tanggal Lahir</string>
+    <string name="dob_hint">dd/mm/yyyy</string>
+    <string name="name_hint">Nama unik</string>
+    <string name="childName_hint">Nama lengkap anak</string>
+    <string name="number_hint">8xx-xxxx-xxxx</string>
+    <string name="location_hint">Kota domisili</string>
+    <string name="location_info">kota/lokasi terdekat</string>
+    <string name="email_hint">surel(nama@contoh.com)</string>
+    <string name="newspaper_text">Terima Newsletter?</string>
+    <string name="agree_terms_privacy">Dengan Klik Setuju, kamu menyetujui dengan &lt;a href=https://skoline.co.id/syarat-dan-ketentuan/> Ketentuan penggunaan &lt;/a> dan &lt;a href=https://skoline.co.id/kebijakan-privasi/> Kebijakan privasi &lt;/a></string>
+    <string name="app_website"> &lt;a href=https://www.skoline.co.id>www.skoline.co.id
+        &lt;/a></string>
+    <string name="signin_button">Masuk</string>
+    <string name="signup_button">Daftar</string>
+    <string name="smsVarification_hint">Masukan Kode verifikasi disini</string>
+    <string name="varificationButton_text">Verifikasi</string>
+    <string name="resendCode_text">Kirim Ulang</string>
+    <string name="signUpBackButton_text">Kembali</string>
+    <string name="resend_uname">Kirim</string>
+    <string name="unameError">nama unik tidak ditemukan</string>
+    <string name="dobError">tanggal lahir tidak sesuai</string>
+    <string name="app_version">Skoline App Mode Online (versi:1.0.1R)</string>
+    <string name="welcomenote">Skoline adalah tempat belajar yang menyenangkan. Disini kamu bisa belajar berbagai hal sambil bermain bersama Bobi, Bella, Fajar dan Chika. Ayo kita mulai berpetualang!</string>
+    <string name="subscriptionTxt">Jadilah bagian dari kami! Pilih masa berlangganan di bawah ini dan dapatkan masa uji coba 3 bulan pertama gratis. Batalkan kapanpun dalam 3 bulan pertama dan anda tidak akan dibebankan biaya berlangganan.</string>
+    <string name="subButton1">Rp  15.000/bulan</string>
+    <string name="subButton2">Rp  180.000/12 bulan</string>
+    <string name="app_version_text">Skoline App Mode Online (version: %s)</string>
+    <string name="bonusVideo">Bonus Video Skoline </string>
+    <string name="mainmenu_txt">Pilih Topik Berdasarkan Kelas</string>
+    <string name="helpPage_title">Pertanyaan yang sering diajukan</string>
+    <string name="faq">Pertanyaan yang sering diajukan "\n" Apa itu Skoline? Skoline adalah aplikasi belajar yang fleksibel dan sesuai dengan kebutuhan anak. "\n" Apakah Skoline sesuai dengan kurikulum pemerintah? Secara keseluruhan, materi pelajaran Sekolah Dasar Skoline sesuai dengan kurikulum pemerintah. Selain itu, kami pun menambahkan materi-materi tambahan yang dirasa penting dan diperlukan bagi siswa."\n" Materi yang saya cari tidak ada di kelas saya. Apakah belum dibuat? Dikarenakan kami tidak mengulang materi yang telah diberikan di kelas sebelumnya, mohon cek materi tersebut di kelas lain. Atau, cukup menggunakan tombol cari pada menu utama."\n" Apakah Skoline masih mengembangkan aplikasinya? Ya, kami masih terus mengembangkan aplikasi dengan menambahkan materi pelajaran, dan memperbanyak permainan. Ini akan dilakukan dengan memberikan update secara berkala. Pastikan kamu terus pada versi aplikasi terbaru kami.</string>
+    <string name="contacts">Kontak</string>
+    <string name="address">Aplikasi Skoline dibuat oleh : PT Skoline Solusi Indonesia"\n"Jl.Simprug Garden I Blok W No.12 Kebayoran Lama"\n"Jakarta Selatan</string>
+    <string name="mail"> Pertanyaan, saran, dan kritik dapat dilakukan melalui kolom di bawah ini:</string>
+    <string name="class_list">Pilih Kelas Kamu</string>
+    <string name="subject_list">Pilih Mata Pelajaran</string>
+    <string name="topic_list">Daftar Topik Pelajaran</string>
+    <string name="adventure_list">Bertualang dan Bermain</string>
+    <string name="loading_data">Memuat data...</string>
+    <string name="skipButton">Skip</string>
+    <string name="signin_you_in">Memasukan data</string>
+    <string name="user_not_found">User tidak ditemukan</string>
+    <string name="uniqueName_resend">Nama unik telah dikirim ke </string>
+    <string name="emptyField">Tidak boleh kosong</string>
+    <string name="userCreated">User berhasil dibuat</string>
+    <string name="invalidNumber">nomor tidak valid</string>
+    <string name="invalidEmail">alamat surel tidak valid</string>
+    <string name="help">Bantuan</string>
+    <string name="take_picture">Mengambil Gambar</string>
+    <string name="choose_from_gallery">Pilih Dari Galeri</string>
+    <string name="couldnt_upload_image">Tidak dapat memuat gambar</string>
+    <string name="years">Tahun</string>
+    <string name="uploading_photo">Mengunggah Foto...</string>
+    <string name="image_update_successful">Gambar Profil Berhasil di unggah </string>
+    <string name="topicVideoHeadline">1. Simak Petualangannya</string>
+    <string name="start_your_trial_version">Memulai versi uji coba</string>
+    <string name="subcription_successful">Berhasil berlangganan</string>
+    <string name="searchTitle">Mencari Video</string>
+    <string name="couldnt_find">Tidak dapat menemukan apa pun</string>
+    <string name="sumitting_progress">Mengirimkan data</string>
+    <string name="progress_submitted">Data terkirim</string>
+    <string name="mathTitle">Mathmatica</string>
+    <string name="switch_to">Ubah ke</string>
+    <string name="english">Bahasa Inggris</string>
+    <string name="indonesia">Bahasa Indonesia</string>
+    <string name="logout">Keluar</string>
+    <string name="change_language">Ubah bahasa</string>
+    <string name="sending_message">Mengirim pesan</string>
+    <string name="profile">Profil</string>s
+    <string name="activities">Aktifitas</string>
+    <string name="progress">Progress</string>
+    <string name="bonusHeadline">Edukasi Umum</string>
+    <string name="bonustitle">Skoline Video </string>
+    <string name="bonusToolbarTitle">Daftar Topik Pelajaran</string>
+    <string name="resendCodeTimer_text">You will get the code within</string>
+    <string name="sendEmail">Mengirim pesan...</string>
+    <string name="mail_hint">Pesan</string>
+    <string name="send">Kirim</string>
+    <string name="package_monthly_text">Rp 15.000/bulan</string>
+    <string name="package_yearly_text">Rp 180.000/12 bulan</string>
+    <string name="uname_size">Setidaknya 6 karakter</string>
+
+    <string name="streaming">Streaming</string>
+    <string name="download_message">Kamu ingin memtuar video langsung dengan Streaming atau Download?</string>
+    <string name="download">Download</string>
+    <string name="skoline">Skoline</string>
+    <string name="download_or_streaming_msg">Kamu ingin memutar video langsung dengan Streaming atau Download?</string>
+    <string name="downloading_video">Mengunduh video...</string>
+    <string name="download_complete">Selesai Mengunduh</string>
+    <string name="bonusVideoBannerTitle">Bonus Video Skoline</string>
+    <string name="resend_uname_info">Verfikasi nomor ponsel anda</string>
+    <string name="please_contact_support">Please contact support</string>
+    <string name="download_in_progress">Mengunduh Game...</string>
+    <string name="gameCancle">Tutup</string>
+    <string name="topicGameheadline">2. Mainkan Gamenya</string>
+    <string name="signUp">Signing Up...</string>
+    <string name="checkOtp">Verifying Otp...</string>
+    <string name="location_toolbar_title">Select Your Location</string>
+    <string name="how_to_pay_using_gpay">Lihat cara berlangganan di sini</string>
+    <string name="youtube_player">YouTube Player</string>
+
+    <string-array name="Day">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="Months">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+
+    </string-array>
+
+</resources>

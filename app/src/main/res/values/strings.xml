@@ -1,0 +1,170 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">iFarmer</string>
+
+    <!--network error string-->
+    <string name="network_error">Network connection cannot be established</string>
+    <string name="invalid_json_response">Invalid response</string>
+    <string name="application_update_required">Application update required</string>
+    <string name="application_id_invalid">Application ID is not valid</string>
+    <string name="invalid_request">Invalid request</string>
+    <string name="connectivity_error">Connection error</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="access_deny">Access deny</string>
+    <string name="insecure_internet_connection">Internet connection is not secure</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="sms_varification_text">Sms verification</string>
+    <string name="forgot_Uname_text">Forgot Unique Name?</string>
+    <string name="name_info">Enter Unique Name</string>
+    <string name="childName_info">Child Full Name</string>
+    <string name="dob">Date of Birth</string>
+    <string name="dob_hint">dd/mm/yyyy</string>
+    <string name="name_hint">Enter Unique Name</string>
+    <string name="childName_hint">Child Full Name</string>
+    <string name="number_hint">12345678.. </string>
+    <string name="location_hint">Your Location</string>
+    <string name="location_info">Your Location/info</string>
+    <string name="email_hint">example@abc.com</string>
+    <string name="newspaper_text">News ?</string>
+    <string name="agree_terms_privacy">By continuing, you agree to our &lt;a href=https://skoline.co.id/syarat-dan-ketentuan/>Terms of Use
+        &lt;/a> and read the
+        &lt;a href=https://skoline.co.id/kebijakan-privasi/>Privacy Policy&lt;/a></string>
+    <string name="app_website"> &lt;a href=https://www.skoline.co.id>www.skoline.co.id
+        &lt;/a></string>
+    <string name="signin_button">Sign In</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="smsVarification_hint">Enter Verification Code</string>
+    <string name="varificationButton_text">Check Verification</string>
+    <string name="resendCode_text">Resend Code</string>
+    <string name="signUpBackButton_text">Back To SignUp Page</string>
+    <string name="resend_uname">Send</string>
+    <string name="unameError">Invalid Username</string>
+    <string name="dobError">Invalid Date of Birth</string>
+    <string name="app_version">App version goes here</string>
+    <string name="welcomenote">This is a welcome note for skoline app</string>
+    <string name="subscriptionTxt">Jadilah bagian dari kami! Pilih masa berlangganan di bawah ini dan dapatkan masa uji coba 3 bulan pertama gratis. Batalkan kapanpun dalam 3 bulan pertama dan anda tidak akan dibebankan biaya berlangganan.</string>
+    <string name="subButton1">Rp  15.000/bulan</string>
+    <string name="subButton2">Rp  180.000/12 bulan</string>
+    <string name="app_version_text">Skoline App Mode Online (version: %s)</string>
+    <string name="bonusVideo">Bonus Video Skoline </string>
+    <string name="mainmenu_txt">Some Text Here</string>
+    <string name="helpPage_title">Part of the frequently asked questions</string>
+    <string name="faq">FAQ  goes "\n" here "\n" and "\n" here</string>
+    <string name="contacts">Contact</string>
+    <string name="address">Address goes "\n" here "\n" and "\n" here</string>
+    <string name="mail">questions and criticisms can be done through the column below</string>
+    <string name="class_list">Select Class</string>
+    <string name="subject_list">Select Subject</string>
+    <string name="topic_list">Select Topic</string>
+    <string name="adventure_list">Adventure and Play</string>
+    <string name="loading_data">Loading data...</string>
+    <string name="skipButton">Skip</string>
+    <string name="signin_you_in">Signing you in...</string>
+    <string name="user_not_found">User not found</string>
+    <string name="uniqueName_resend">Unique name has been sent to</string>
+    <string name="emptyField">Can\'t be empty</string>
+    <string name="userCreated">User created successfully</string>
+    <string name="invalidNumber">Invalid number</string>
+    <string name="invalidEmail">Invalid email address</string>
+    <string name="help">Help</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="choose_from_gallery">Choose From Gallery</string>
+    <string name="couldnt_upload_image">Couldn\'t load image</string>
+    <string name="years">years</string>
+    <string name="uploading_photo">Uploading photo...</string>
+    <string name="image_update_successful">Profile picture successfully uploaded</string>
+    <string name="topicVideoHeadline">1. Simak Petualangannya</string>
+    <string name="start_your_trial_version">Start Your Trail Version</string>
+    <string name="subcription_successful">Subscription successfully completed</string>
+    <string name="searchTitle">Search Videos</string>
+    <string name="couldnt_find">Couldn\'t find anything</string>
+    <string name="sumitting_progress">Submitting your progress...</string>
+    <string name="progress_submitted">Progress Submitted</string>
+    <string name="logout">Logout</string>
+    <string name="change_language">Change language</string>
+    <string name="sending_message">Sending message</string>
+    <string name="mathTitle">Mathmatica</string>
+    <string name="switch_to">Switch to</string>
+    <string name="english">English</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="profile">Profile</string>
+    <string name="activities">Activities</string>
+    <string name="progress">Progress</string>
+    <string name="bonusHeadline">Edukasi Umum</string>
+    <string name="bonustitle">Skoline Video </string>
+    <string name="bonusToolbarTitle">Daftar Topik Pelajaran</string>
+    <string name="resendCodeTimer_text">You will get the code within</string>
+    <string name="sendEmail">Sending message...</string>
+    <string name="mail_hint">Message</string>
+    <string name="send">Send</string>
+    <string name="package_monthly_text">Rp 15.000/bulan</string>
+    <string name="package_yearly_text">Rp 180.000/12 bulan</string>
+    <string name="uname_size">At least 6 characters</string>
+    <string name="streaming">Streaming</string>
+    <string name="download_message">Kamu ingin memtuar video langsung dengan Streaming atau Download?</string>
+    <string name="download">Download</string>
+    <string name="skoline">Skoline</string>
+    <string name="download_or_streaming_msg">Kamu ingin memutar video langsung dengan Streaming atau Download?</string>
+    <string name="downloading_video">Mengunduh video...</string>
+    <string name="download_complete">Selesai Mengunduh</string>
+    <string name="bonusVideoBannerTitle">Bonus Video Skoline</string>
+    <string name="resend_uname_info">Verfikasi nomor ponsel anda</string>
+    <string name="please_contact_support">Please contact support</string>
+    <string name="download_in_progress">Download in progress...</string>
+    <string name="gameCancle">Tutup</string>
+    <string name="topicGameheadline">2. Mainkan Gamenya</string>
+    <string name="signUp">Signing Up...</string>
+    <string name="checkOtp">Verifying Otp...</string>
+    <string name="location_toolbar_title">Select Your Location</string>
+    <string name="how_to_pay_using_gpay">Lihat cara berlangganan di sini</string>
+    <string name="youtube_player">YouTube Player</string>
+
+    <string-array name="Day">
+        <item>"   "01</item>
+        <item>"   "02</item>
+        <item>"   "03</item>
+        <item>"   "04</item>
+        <item>"   "05</item>
+        <item>"   "06</item>
+        <item>"   "07</item>
+        <item>"   "08</item>
+        <item>"   "09</item>
+        <item>"   "10</item>
+        <item>"   "11</item>
+        <item>"   "12</item>
+        <item>"   "13</item>
+        <item>"   "14</item>
+        <item>"   "15</item>
+        <item>"   "16</item>
+        <item>"   "17</item>
+        <item>"   "18</item>
+        <item>"   "19</item>
+        <item>"   "20</item>
+        <item>"   "21</item>
+        <item>"   "22</item>
+        <item>"   "23</item>
+        <item>"   "24</item>
+        <item>"   "25</item>
+        <item>"   "26</item>
+        <item>"   "27</item>
+        <item>"   "28</item>
+        <item>"   "29</item>
+        <item>"   "30</item>
+        <item>"   "31</item>
+    </string-array>
+    <string-array name="Months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+
+    </string-array>
+
+</resources>
