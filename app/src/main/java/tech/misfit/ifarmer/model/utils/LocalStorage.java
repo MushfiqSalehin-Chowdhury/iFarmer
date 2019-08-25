@@ -1,4 +1,4 @@
-package tech.misfit.ifarmer.utils;
+package tech.misfit.ifarmer.model.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -12,7 +12,7 @@ public class LocalStorage {
 
 
     private SharedPreferences getBaseConfig(Context context){
-        return context.getSharedPreferences("skoline_app", Context.MODE_PRIVATE);
+        return context.getSharedPreferences("ifarmer_app", Context.MODE_PRIVATE);
     }
 
     public void setData(Context context, String key, String data){

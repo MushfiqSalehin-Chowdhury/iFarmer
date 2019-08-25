@@ -29,7 +29,7 @@ import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import tech.misfit.ifarmer.BuildConfig;
-import tech.misfit.ifarmer.utils.ShareInfo;
+import tech.misfit.ifarmer.model.utils.ShareInfo;
 
 public class ApiClient {
     public static AllNetworkCalls callRetrofit(final Context context, String url, final String requestId) {

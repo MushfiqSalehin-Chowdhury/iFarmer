@@ -38,8 +38,9 @@ import java.util.ArrayList;
 import tech.misfit.ifarmer.R;
 import tech.misfit.ifarmer.databinding.ToolbarBinding;
 import tech.misfit.ifarmer.model.configuration.LanguageHelper;
-import tech.misfit.ifarmer.utils.LocalStorage;
-import tech.misfit.ifarmer.utils.ShareInfo;
+
+import tech.misfit.ifarmer.model.utils.LocalStorage;
+import tech.misfit.ifarmer.model.utils.ShareInfo;
 import tech.misfit.ifarmer.view.custom.CustomEditText;
 import tech.misfit.ifarmer.viewControllers.interfaces.PermissionListener;
 

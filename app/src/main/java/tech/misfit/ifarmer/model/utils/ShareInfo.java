@@ -1,4 +1,4 @@
-package tech.misfit.ifarmer.utils;
+package tech.misfit.ifarmer.model.utils;
 
 import android.app.Activity;
 import android.content.Context;

@@ -45,16 +45,6 @@ public interface AllNetworkCalls {
             @Body String body
     );
 
-    @Multipart
-    @POST("{url}")
-    Call<ResponseBody> sendDocuments(
-            @Path(value = "url", encoded = true) String path,
-            @PartMap Map<String, RequestBody> partMap
-    );
 
-    @GET("{url}")
-    @Streaming
-    Call<ResponseBody> downloadFile(
-            @Path(value = "url", encoded = true) String path
-    );
+
 }

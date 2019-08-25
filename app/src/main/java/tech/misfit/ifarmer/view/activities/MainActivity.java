@@ -1,11 +1,8 @@
 package tech.misfit.ifarmer.view.activities;
 
-import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.databinding.DataBindingUtil;
-
 import android.os.Bundle;
-import android.widget.TextView;
-
 import tech.misfit.ifarmer.R;
 import tech.misfit.ifarmer.databinding.ActivityMainBinding;
 

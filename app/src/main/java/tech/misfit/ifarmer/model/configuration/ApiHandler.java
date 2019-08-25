@@ -14,7 +14,7 @@ import retrofit2.Callback;
 import retrofit2.HttpException;
 import retrofit2.Response;
 import tech.misfit.ifarmer.R;
-import tech.misfit.ifarmer.utils.ShareInfo;
+import tech.misfit.ifarmer.model.utils.ShareInfo;
 
 
 
@@ -39,9 +39,6 @@ public abstract class ApiHandler {
                 case "post":
                     bodyToCall = ApiClient.callRetrofit(context, baseUrl, requestId).postRequest(path, hashMap);
                     break;
-                case "post_image":
-                    bodyToCall = ApiClient.callRetrofit(context, baseUrl, requestId).sendDocuments(path, hashMap);
-                    break;
             }
 
             bodyToCall.enqueue(new Callback<ResponseBody>() {
@@ -60,16 +57,7 @@ public abstract class ApiHandler {
                     } else if (response.code() == 401) {
                         failResponse(requestId, ResponseCode.UNAUTHENTICATION, context.getString(R.string.access_deny));
                         ShareInfo.getInstance().logout(context);
-                    } /*else if (response.code() == 422) {
-                        try {
-                            JSONObject jsonObject = new JSONObject(response.body().string());
-                            Log.e(TAG, "onResponse: JSONObject - " + new Gson().toJson(jsonObject));
-                            failResponse(requestId, ResponseCode.FORM_VALIDATION_ERROR, jsonObject.getString("message"));
-                        } catch (Exception e) {
-                            Log.e(TAG, "onResponse: failResponse " + String.valueOf(e));
-                            failResponse(requestId, ResponseCode.INVALID_JSON_RESPONSE, context.getString(R.string.invalid_json_response));
-                        }
-                    }*/ else {
+                    } else {
                         failResponse(requestId, ResponseCode.UNAUTHENTICATION, context.getString(R.string.network_error));
                     }
                 }
