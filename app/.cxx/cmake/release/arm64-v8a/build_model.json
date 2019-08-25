@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer",
+      "sdkFolder": "/home/mushfiq/Android/Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app",
+      "makeFile": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/.cxx",
+      "cxxFolder": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx",
+      "ndkFolder": "/home/mushfiq/Android/Sdk/ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/build/intermediates/cmake/release/lib",
+    "objFolder": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/build/intermediates/cmake/release/obj",
+    "jsonFolder": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/release",
+    "gradleBuildOutputFolder": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 17,
+  "cxxBuildFolder": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/release/arm64-v8a",
+  "jsonFile": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cxx/release/arm64-v8a",
+  "objFolder": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/build/intermediates/cmake/release/obj/arm64-v8a",
+  "buildCommandFile": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/release/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/release/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/release/arm64-v8a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cxx/release/arm64-v8a/CMakeLists.txt",
+    "toolchainWrapperFile": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cxx/release/arm64-v8a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cxx/release/arm64-v8a/build_generation_state.json",
+    "cacheKeyFile": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cxx/release/arm64-v8a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cxx/release/arm64-v8a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cxx/release/arm64-v8a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cxx/release/arm64-v8a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/release/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/release/arm64-v8a/compile_commands.json"
+}

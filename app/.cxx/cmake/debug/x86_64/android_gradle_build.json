@@ -1,0 +1,42 @@
+{
+  "stringTable": {
+    "0": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/home/mushfiq/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/mushfiq/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/mushfiq/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/home/mushfiq/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/mushfiq/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/home/mushfiq/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-x86_64": {
+      "buildCommand": "/home/mushfiq/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/debug/x86_64\" native-lib",
+      "buildType": "debug",
+      "toolchain": "2194758214",
+      "abi": "x86_64",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "2194758214": {
+      "cppCompilerExecutable": "/home/mushfiq/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

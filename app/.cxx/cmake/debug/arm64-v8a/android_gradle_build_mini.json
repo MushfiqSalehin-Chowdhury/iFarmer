@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/home/mushfiq/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/home/mushfiq/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/mushfiq/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/mushfiq/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/home/mushfiq/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/debug/arm64-v8a\" native-lib",
+      "abi": "arm64-v8a",
+      "output": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so"
+    }
+  }
+}

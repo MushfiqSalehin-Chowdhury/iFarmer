@@ -125,7 +125,6 @@ public class ShareInfo {
 
     public void logout(Context context) {
         LocalStorage.getInstance().clearData(context, "auth_token");
-        // todo: GO TO LOGIN SCREEN.
         ((BaseActivity) context).goToLoginScreen();
     }
 

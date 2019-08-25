@@ -227,6 +227,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         if (hasBackButton) {
             getSupportActionBar().setDisplayShowTitleEnabled(false);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            toolbarBinding.toolbar.setNavigationIcon(R.drawable.back_arrow);
             toolbarBinding.toolbar.setNavigationOnClickListener(v -> onBackPressed());
         } else {
             toolbarBinding.toolbar.setTitle("    "); // quickfix; need to do it more conveniently
@@ -234,13 +235,13 @@ public abstract class BaseActivity extends AppCompatActivity {
         return toolbarBinding.toolbar;
     }
 
-    @Override
+   /* @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (actionBarDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
         return super.onOptionsItemSelected(item);
-    }
+    }*/
 
     public void goToHome() {
         Intent intent = new Intent(BaseActivity.this, MainActivity.class);

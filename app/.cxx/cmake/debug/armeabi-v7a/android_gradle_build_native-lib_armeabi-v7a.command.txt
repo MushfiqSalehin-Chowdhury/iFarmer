@@ -1,0 +1,7 @@
+Executable : /home/mushfiq/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/debug/armeabi-v7a
+native-lib
+jvmArgs : 
+

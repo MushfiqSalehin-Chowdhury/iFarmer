@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbarBinding"
+            layout="@layout/toolbar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <tech.misfit.ifarmer.view.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/GreenDark"
+            android:text="@string/signin_screen_text"
+            android:layout_gravity="center"
+            android:textSize="@dimen/font_size_large"
+            android:layout_margin="@dimen/margin_medium"/>
+
+
+        <tech.misfit.ifarmer.view.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signin_text"
+            android:padding="@dimen/padding_small"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:textColor="@color/GreenDark"
+            android:textSize="@dimen/font_size_small"
+            app:textStyle="Bold"/>
+
+        <tech.misfit.ifarmer.view.custom.CustomEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box_shape"
+            android:padding="@dimen/padding_small"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:inputType="phone"
+            android:hint="@string/number_hint"/>
+
+            <tech.misfit.ifarmer.view.custom.CustomTextView
+                android:id="@+id/logIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/box_shape"
+                android:text="@string/signIn_buttonText"
+                android:gravity="center"
+                android:backgroundTint="@color/GreenDark"
+                android:textSize="@dimen/font_size_xx_medium"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:padding="@dimen/padding_small"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

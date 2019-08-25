@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/home/mushfiq/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/home/mushfiq/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/mushfiq/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/home/mushfiq/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-armeabi-v7a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/home/mushfiq/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/.cxx/cmake/debug/armeabi-v7a\" native-lib",
+      "abi": "armeabi-v7a",
+      "output": "/home/mushfiq/AndroidProjects/Misfit_Projects/iFarmer/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so"
+    }
+  }
+}
